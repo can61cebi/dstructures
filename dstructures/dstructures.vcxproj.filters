@@ -36,5 +36,8 @@
     <ClCompile Include="ders6-list.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ders5-circular_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
