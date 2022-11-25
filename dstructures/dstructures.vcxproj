@@ -128,6 +128,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ders2.cpp" />
+    <ClCompile Include="ders3.cpp" />
+    <ClCompile Include="ders3a.cpp" />
+    <ClCompile Include="ders5-circular.cpp" />
+    <ClCompile Include="ders6-list.cpp" />
+    <ClCompile Include="ders6-queue.cpp" />
     <ClCompile Include="dstructures.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
