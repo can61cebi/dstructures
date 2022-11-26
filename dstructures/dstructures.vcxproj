@@ -136,7 +136,6 @@
     <ClCompile Include="ders6-list.cpp" />
     <ClCompile Include="ders6-queue.cpp" />
     <ClCompile Include="dstructures.cpp" />
-    <ClCompile Include="ekle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
