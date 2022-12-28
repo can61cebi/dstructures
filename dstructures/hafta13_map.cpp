@@ -5,22 +5,19 @@ using namespace std;
 
 int main()
 {
-    map<char, int> MAP;
+    map<int, float> BST;
+    map<int, float>::iterator it;
 
-    // first insert function version (single parameter):
-    MAP.insert(pair<char, int>('a', 100));
-    MAP.insert(pair<char, int>('z', 200));
+    BST.insert(pair < int, float>(101, 4.00));
+    BST.insert(pair < int, float>(101, 3.00));
+    BST.insert(pair < int, float>(999, 4.00));
+    BST.insert(pair < int, float>(222, 2.55));
+    BST.insert(pair < int, float>(333, 4.00));
 
-    pair<map<char, int>::iterator, bool> ret;
-    ret = MAP.insert(pair<char, int>('z', 500));
-    if (ret.second == false) {
-        cout << "element 'z' already existed";
-        cout << " with a value of " << ret.first->second << '\n';
-    }
+    BST[444] = 3.99;
 
-    // second insert function version (with hint position):
-    map<char, int>::iterator it = MAP.begin();
-    MAP.insert(it, pair<char, int>('b', 300));  // max efficiency inserting
-    MAP.insert(it, pair<char, int>('c', 400));  // no max efficiency inserting
+    for (it = BST.begin(); it != BST.end(); ++it)
+        cout << it->first << " -> " << it->second << "\n";
 
-    // third insert function version (r
+    return 0;
+}
