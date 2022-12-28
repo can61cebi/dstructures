@@ -37,6 +37,7 @@ int main()
         cout << ' ' << *it;
     cout << '\n';
 
+    cout << '\n' << BST.max_size() / 1024;
 
     return 0;
 }
